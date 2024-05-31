@@ -24,7 +24,7 @@ Here's a brief overview of the code:
    - PUT /todos/<int:todo_id>: Updates a single Todo item by ID.
    - DELETE /todos/<int:todo_id>: Deletes a single Todo item by ID.
 3. It uses jsonify to return JSON responses.
-4. TIt uses db.create_all() to create the database tables.
+4. It uses db.create_all() to create the database tables.
 
 This code uses the serialize method to convert the Todo object to a JSON-serializable dictionary. This is necessary because the Todo object contains a db.Column object, which is not JSON-serializable.
 
