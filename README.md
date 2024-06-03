@@ -1,4 +1,4 @@
-#My python To-Do app   (VERSION 0.0.1)
+#My python To-Do app   (VERSION 0.1)
 
 This is a simple To-Do app with a form to add new todos, a list to display exisitng todos, and a delete button to remove todos.
 
